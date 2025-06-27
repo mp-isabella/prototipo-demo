@@ -114,9 +114,9 @@ const BlogDetailsPage = () => {
 
                   <div className="bg-primary/10 relative z-10 mb-10 overflow-hidden rounded-md p-8">
                     <p className="text-body-color text-center text-base font-medium italic">
-                      "El futuro del desarrollo web no es opcional, es la clave
+                      El futuro del desarrollo web no es opcional, es la clave
                       para que tu negocio crezca y se mantenga competitivo en la
-                      nueva era digital."
+                      nueva era digital.
                     </p>
                   </div>
 
