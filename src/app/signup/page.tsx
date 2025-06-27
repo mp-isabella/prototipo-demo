@@ -12,7 +12,7 @@ const SignupPage = () => {
       <div className="container">
         <div className="-mx-4 flex flex-wrap">
           <div className="w-full px-4">
-            <div className="shadow-lg dark:bg-dark mx-auto max-w-[500px] rounded-md bg-white px-6 py-10 sm:p-[60px]">
+            <div className="dark:bg-dark mx-auto max-w-[500px] rounded-md bg-white px-6 py-10 shadow-lg sm:p-[60px]">
               <h3 className="mb-3 text-center text-2xl font-bold text-black sm:text-3xl dark:text-white">
                 Registrate
               </h3>
@@ -28,7 +28,7 @@ const SignupPage = () => {
                   <input
                     type="text"
                     placeholder="Ingresa tu nombre"
-                    className="w-full rounded border border-stroke bg-[#f8f8f8] px-5 py-3 text-base text-body outline-none focus:border-primary"
+                    className="border-stroke text-body focus:border-primary w-full rounded border bg-[#f8f8f8] px-5 py-3 text-base outline-none"
                   />
                 </div>
 
@@ -39,7 +39,7 @@ const SignupPage = () => {
                   <input
                     type="email"
                     placeholder="Ingresa tu correo electrónico"
-                    className="w-full rounded border border-stroke bg-[#f8f8f8] px-5 py-3 text-base text-body outline-none focus:border-primary"
+                    className="border-stroke text-body focus:border-primary w-full rounded border bg-[#f8f8f8] px-5 py-3 text-base outline-none"
                   />
                 </div>
 
@@ -50,17 +50,13 @@ const SignupPage = () => {
                   <input
                     type="password"
                     placeholder="Ingrese su contraseña"
-                    className="w-full rounded border border-stroke bg-[#f8f8f8] px-5 py-3 text-base text-body outline-none focus:border-primary"
+                    className="border-stroke text-body focus:border-primary w-full rounded border bg-[#f8f8f8] px-5 py-3 text-base outline-none"
                   />
                 </div>
 
                 <div className="mb-6 flex items-center">
-                  <input
-                    type="checkbox"
-                    id="terms"
-                    className="mr-2"
-                  />
-                  <label htmlFor="terms" className="text-sm text-body">
+                  <input type="checkbox" id="terms" className="mr-2" />
+                  <label htmlFor="terms" className="text-body text-sm">
                     Estoy de acuerdo con los
                     <a href="#" className="text-primary hover:underline">
                       {" "}

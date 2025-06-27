@@ -1,4 +1,4 @@
-/* import Breadcrumb from "@/components/Common/Breadcrumb";
+import Breadcrumb from "@/components/Common/Breadcrumb";
 import Contact from "@/components/Contact";
 
 import { Metadata } from "next";
@@ -22,4 +22,4 @@ const ContactPage = () => {
   );
 };
 
-export default ContactPage; */
+export default ContactPage;

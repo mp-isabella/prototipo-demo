@@ -5,7 +5,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Tendencias Web 2025 | Innovación y Futuro Digital",
-  description: "Explora las principales tendencias en desarrollo web para 2025 que están transformando el mundo digital.",
+  description:
+    "Explora las principales tendencias en desarrollo web para 2025 que están transformando el mundo digital.",
 };
 
 const BlogDetailsPage = () => {
@@ -22,7 +23,6 @@ const BlogDetailsPage = () => {
                 <div className="border-body-color/10 mb-10 flex flex-wrap items-center justify-between border-b pb-4 dark:border-white/10">
                   <div className="flex flex-wrap items-center">
                     <div className="mr-10 mb-5 flex items-center">
-                      
                       <div>
                         <span className="text-body-color text-base font-medium">
                           De <span>María Riquelme</span>
@@ -30,7 +30,7 @@ const BlogDetailsPage = () => {
                       </div>
                     </div>
                     <div className="mb-5 flex items-center">
-                      <p className="text-body-color text-base font-medium mr-5">
+                      <p className="text-body-color mr-5 text-base font-medium">
                         26 Jun 2025
                       </p>
                       <p className="text-body-color text-base font-medium">

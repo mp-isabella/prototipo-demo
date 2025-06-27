@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useTheme } from 'next-themes';
-import { useEffect, useState } from 'react';
+import { useTheme } from "next-themes";
+import { useEffect, useState } from "react";
 
 const CajaSuscripcion = () => {
   const { theme } = useTheme();
@@ -11,7 +11,7 @@ const CajaSuscripcion = () => {
     setMontado(true);
   }, []);
 
-  const colorStop = theme === 'light' ? '#4A6CF7' : '#fff';
+  const colorStop = theme === "light" ? "#4A6CF7" : "#fff";
 
   if (!montado) {
     return null;
@@ -19,12 +19,12 @@ const CajaSuscripcion = () => {
 
   return (
     <div className="shadow-three dark:bg-gray-dark relative z-10 rounded-xs bg-white p-8 sm:p-11 lg:p-8 xl:p-11">
-      <h3 className="mb-4 text-2xl font-bold leading-tight text-black dark:text-white">
+      <h3 className="mb-4 text-2xl leading-tight font-bold text-black dark:text-white">
         Suscríbete para recibir novedades
       </h3>
-      <p className="border-body-color/25 mb-11 border-b pb-11 text-base leading-relaxed text-body-color dark:border-white/25">
-        Ingresa tu nombre y correo para mantenerte informado sobre las
-        novedades y actualizaciones. Sin spam, te lo prometemos.
+      <p className="border-body-color/25 text-body-color mb-11 border-b pb-11 text-base leading-relaxed dark:border-white/25">
+        Ingresa tu nombre y correo para mantenerte informado sobre las novedades
+        y actualizaciones. Sin spam, te lo prometemos.
       </p>
       <div>
         <input
@@ -173,7 +173,7 @@ const LineasDecorativas = ({ color }: { color: string }) => (
     xmlns="http://www.w3.org/2000/svg"
   >
     <g opacity="0.3">
-      {['paint0', 'paint1', 'paint2', 'paint3'].map((id, i) => (
+      {["paint0", "paint1", "paint2", "paint3"].map((id, i) => (
         <path
           key={i}
           opacity="0.45"
@@ -183,13 +183,13 @@ const LineasDecorativas = ({ color }: { color: string }) => (
       ))}
     </g>
     <defs>
-      {['paint0', 'paint1', 'paint2', 'paint3'].map((id, i) => (
+      {["paint0", "paint1", "paint2", "paint3"].map((id, i) => (
         <linearGradient
           key={i}
           id={id}
-          x1={i % 2 === 0 ? '291.35' : '333.35'}
-          y1={i % 2 === 0 ? '12.1032' : '-12.8968'}
-          x2={i % 2 === 0 ? '179.211' : '221.211'}
+          x1={i % 2 === 0 ? "291.35" : "333.35"}
+          y1={i % 2 === 0 ? "12.1032" : "-12.8968"}
+          x2={i % 2 === 0 ? "179.211" : "221.211"}
           y2="237.617"
           gradientUnits="userSpaceOnUse"
         >

@@ -13,7 +13,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Diseño Profesional",
-    paragraph: "Desarrollamos sitios web modernos, elegantes y funcionales, adaptados a la identidad de tu empresa y enfocados en la experiencia del usuario.",
+    paragraph:
+      "Desarrollamos sitios web modernos, elegantes y funcionales, adaptados a la identidad de tu empresa y enfocados en la experiencia del usuario.",
   },
   {
     id: 2,
@@ -27,7 +28,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Web Responsiva",
-    paragraph: "Tu página se adapta perfectamente a dispositivos móviles, tablets y computadores, garantizando accesibilidad y una experiencia óptima.",
+    paragraph:
+      "Tu página se adapta perfectamente a dispositivos móviles, tablets y computadores, garantizando accesibilidad y una experiencia óptima.",
   },
   {
     id: 3,
@@ -40,8 +42,9 @@ const featuresData: Feature[] = [
         <path d="M20 15C22.75 15 25 17.25 25 20C25 22.75 22.75 25 20 25C17.25 25 15 22.75 15 20C15 17.25 17.25 15 20 15ZM20 0C22.75 0 25 2.25 25 5C25 7.75 22.75 10 20 10C17.25 10 15 7.75 15 5C15 2.25 17.25 0 20 0ZM5 30C7.75 30 10 32.25 10 35C10 37.75 7.75 40 5 40C2.25 40 0 37.75 0 35C0 32.25 2.25 30 5 30ZM5 15C7.75 15 10 17.25 10 20C10 22.75 7.75 25 5 25C2.25 25 0 22.75 0 20C0 17.25 2.25 15 5 15ZM5 0C7.75 0 10 2.25 10 5C10 7.75 7.75 10 5 10C2.25 10 0 7.75 0 5C0 2.25 2.25 0 5 0ZM35 0C37.75 0 40 2.25 40 5C40 7.75 37.75 10 35 10C32.25 10 30 7.75 30 5C30 2.25 32.25 0 35 0Z" />
       </svg>
     ),
-   title: "Optimización SEO",
-    paragraph: "Aplicamos estrategias de posicionamiento para mejorar la visibilidad de tu negocio en los motores de búsqueda como Google.",
+    title: "Optimización SEO",
+    paragraph:
+      "Aplicamos estrategias de posicionamiento para mejorar la visibilidad de tu negocio en los motores de búsqueda como Google.",
   },
   {
     id: 4,
@@ -54,8 +57,9 @@ const featuresData: Feature[] = [
         <path d="M18.9474 32.6316C18.9474 35.4705 19.8099 38.0969 21.2941 40.2796C21.7904 41.0094 21.3054 42.1053 20.4229 42.1053H4.21053C1.87368 42.1053 0 40.2316 0 37.8947V4.21053C0 1.89474 1.87368 0 4.21053 0H6.31579H16.8421H29.4737C31.7895 0 33.6842 1.87368 33.6842 4.21053V17.9544C33.6842 18.5032 33.1804 18.9474 32.6316 18.9474C25.0737 18.9474 18.9474 25.0737 18.9474 32.6316Z" />
       </svg>
     ),
-     title: "Carga Rápida",
-    paragraph: "Implementamos tecnologías de alto rendimiento que permiten que tu página cargue en segundos, mejorando la retención de clientes.",
+    title: "Carga Rápida",
+    paragraph:
+      "Implementamos tecnologías de alto rendimiento que permiten que tu página cargue en segundos, mejorando la retención de clientes.",
   },
   {
     id: 5,
@@ -69,7 +73,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Gestión Autoadministrable",
-    paragraph: "Incluye panel de administración simple para que puedas gestionar tus contenidos, imágenes y servicios de manera autónoma.",
+    paragraph:
+      "Incluye panel de administración simple para que puedas gestionar tus contenidos, imágenes y servicios de manera autónoma.",
   },
   {
     id: 6,
@@ -83,7 +88,8 @@ const featuresData: Feature[] = [
       </svg>
     ),
     title: "Soporte y Acompañamiento",
-    paragraph: "Te acompañamos en todo el proceso: desde el desarrollo hasta el mantenimiento y soporte técnico posterior a la entrega.",
+    paragraph:
+      "Te acompañamos en todo el proceso: desde el desarrollo hasta el mantenimiento y soporte técnico posterior a la entrega.",
   },
 ];
 export default featuresData;

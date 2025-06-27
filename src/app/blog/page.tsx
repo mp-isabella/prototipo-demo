@@ -36,21 +36,20 @@ const Blog = () => {
                 {["Prev", "1", "2", "3", "...", "12", "Next"].map(
                   (item, index) => (
                     <li key={index} className="mx-1">
-                      {item === "..."
-                        ? (
-                          <span className="bg-body-color/15 text-body-color flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md px-4 text-sm">
-                            ...
-                          </span>
-                        ) : (
-                          <a
-                            href="#"
-                            className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
-                          >
-                            {item}
-                          </a>
-                        )}
+                      {item === "..." ? (
+                        <span className="bg-body-color/15 text-body-color flex h-9 min-w-[36px] cursor-not-allowed items-center justify-center rounded-md px-4 text-sm">
+                          ...
+                        </span>
+                      ) : (
+                        <a
+                          href="#"
+                          className="bg-body-color/15 text-body-color hover:bg-primary flex h-9 min-w-[36px] items-center justify-center rounded-md px-4 text-sm transition hover:text-white"
+                        >
+                          {item}
+                        </a>
+                      )}
                     </li>
-                  )
+                  ),
                 )}
               </ul>
             </div>
